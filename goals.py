@@ -8,6 +8,7 @@ st.write("Set Goals")
 
 st.write("Record Goals")
 
+st.checkbox('Are you feeling swole today?')
 
 lifts = [200, 170, 210, 160, 150]
 
