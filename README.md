@@ -12,3 +12,9 @@ Exercise recorder
 2.	List goals
   Completed goals
   In progress goals
+
+To do:
+
+*  Exercise program
+*  Food plan
+
