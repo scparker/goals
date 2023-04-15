@@ -11,4 +11,7 @@ st.write("Record Goals")
 
 lifts = [200, 170, 210, 160, 150]
 
-st.pyplot(lifts)
+fig, ax = plt.subplots()
+ax.plot(lifts)
+
+st.pyplot(fig)
