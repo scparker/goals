@@ -1,5 +1,7 @@
 import streamlit as st
 
-st.write("Goals!!!!!")
+st.title("Goals!!!!!")
 
-st.write("by Ken Parker")
+st.write("Set Goals")
+
+st.write("Record Goals")
