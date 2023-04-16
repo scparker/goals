@@ -1,6 +1,15 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import pymongo
 import streamlit as st
+
+# Initialize connection.
+# Uses st.cache_resource to only run once.
+@st.cache_resource
+def init_connection():
+    return pymongo.MongoClient(**st.secrets["mongo"])
+
+client = init_connection()
 
 st.title("Goals!!!!!")
 
