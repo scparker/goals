@@ -3,7 +3,7 @@ import numpy as np
 import pymongo
 import streamlit as st
 
-import socket.
+import socket
 hostname=socket.gethostname()
 IPAddr=socket.gethostbyname(hostname)
 st.write("Your Computer Name is:"+hostname)
