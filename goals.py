@@ -3,12 +3,6 @@ import numpy as np
 import pymongo
 import streamlit as st
 
-import socket
-hostname=socket.gethostname()
-IPAddr=socket.gethostbyname(hostname)
-st.write("Your Computer Name is:"+hostname)
-st.write("Your Computer IP Address is:"+IPAddr)
-
 # Initialize connection.
 # Uses st.cache_resource to only run once.
 @st.cache_resource
